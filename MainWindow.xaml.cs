@@ -27,7 +27,8 @@ namespace WpfApp
 
         private void Button_OnClick(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine("clicked Button");       
+            Console.WriteLine("clicked Button");
+            label.Content = "button has been clicked";
             
         }
     }
